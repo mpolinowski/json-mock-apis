@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Blue Next";
+    src: url(/assets/bluunext.woff2) , url(/assets/bluunext.woff);
+}
+
+body {
+    height: 100vh;
+
+    font-family: 'Blue Next';
+    font-size: 24px;
+    line-height: 1.25;
+
+    background-color: black;
+    background-image: linear-gradient(180deg, darkorchid, rgba(255, 255, 255, 0));
+    color: rgb(225, 233, 232);
+}
+
+h1 {
+    font-size: 56px;
+    max-width: 640px;
+    text-indent: -0.4em;
+    margin-bottom: 16px;
+}
+
+h1.long {
+    font-size: 40px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+}

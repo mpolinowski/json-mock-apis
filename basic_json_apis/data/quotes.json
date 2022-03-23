@@ -1,0 +1,8 @@
+[
+    { "id": 1, "quote": "Quote 1", "author": "Author1" },
+    { "id": 2, "quote": "Quote 2", "author": "Author2" },
+    { "id": 3, "quote": "Quote 3", "author": "Author3" },
+    { "id": 4, "quote": "Quote 4", "author": "Author4" },
+    { "id": 5, "quote": "Quote 5", "author": "Author5" },
+    { "id": 6, "quote": "This is a quote that is extra long so it will trigger the LONG class appendix. This will then reduce the font size from fiftysix to forty so the text does not take up too much space", "author": "Author6" }
+]

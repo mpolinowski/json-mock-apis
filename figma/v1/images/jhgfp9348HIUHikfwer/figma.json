@@ -1,0 +1,9 @@
+{
+    "err": null,
+    "images": {
+        "0:2": "/assets/image1.jpg",
+        "0:34": "/assets/image2.jpg",
+        "0:47": "/assets/image3.jpg",
+        "0:78": "/assets/image4.jpg"
+    } 
+}

@@ -1,0 +1,126 @@
+{
+    "sys": {
+        "type": "Array"
+    },
+    "total": 4,
+    "skip": 0,
+    "limit": 100,
+    "items": [
+        { 
+            "fields": {
+            "title": "Big Fella Burger",
+            "description": "Slow roasted pork, egg, grilled chorizo, house bacon, onions, roast potatoes, grilled tortilla and lime crema",
+            "price": "200.00 HK$",
+            "weight": 10,
+            "image": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Asset",
+                    "id": "image1"
+                    }
+                }
+            }
+        },
+        { 
+            "fields": {
+            "title": "Sailors Salad",
+            "description": "Tuna, eggs, red onions, cherry tomato, grilled potatoes and paprika",
+            "price": "115.00 HK$",
+            "weight": 5,
+            "image": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Asset",
+                    "id": "image2"
+                    }
+                }
+            }
+        },
+        { 
+            "fields": {
+            "title": "Coconut Pancakes",
+            "description": "Homade pancakes, toasted coconut, coconut cream, blue berries and honey",
+            "price": "160.00 HK$",
+            "weight": 3,
+            "image": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Asset",
+                    "id": "image3"
+                    }
+                }
+            }
+        },
+        { 
+            "fields": {
+            "title": "Breakfast Delight",
+            "description": "Acai, toasted coconut, banana, fresh berries, chia seeds, poppy seeds, honey and nuts",
+            "price": "188.00 HK$",
+            "weight": 7,
+            "image": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Asset",
+                    "id": "image4"
+                    }
+                }
+            }
+        }
+    ],
+    "includes": {
+            "Assets": [
+                {
+                    "sys": {
+                        "id": "image1"
+                    },
+                    "fields": {
+                        "title": "Breakfast Wrap",
+                        "file": {
+                            "url": "/assets/image1.jpg",
+                            "filename": "image1.jpg",
+                            "contentType": "image/jpeg"
+                        }
+                    }
+                },
+                {
+                    "sys": {
+                        "id": "image2"
+                    },
+                    "fields": {
+                        "title": "Ranchero Bowl",
+                        "file": {
+                            "url": "/assets/image2.jpg",
+                            "filename": "image2.jpg",
+                            "contentType": "image/jpeg"
+                        }
+                    }
+                },
+                {
+                    "sys": {
+                        "id": "image3"
+                    },
+                    "fields": {
+                        "title": "Coconut Pancakes",
+                        "file": {
+                            "url": "/assets/image3.jpg",
+                            "filename": "image3.jpg",
+                            "contentType": "image/jpeg"
+                        }
+                    }
+                },
+                {
+                    "sys": {
+                        "id": "image4"
+                    },
+                    "fields": {
+                        "title": "Energy Bowl",
+                        "file": {
+                            "url": "/assets/image4.jpg",
+                            "filename": "image4.jpg",
+                            "contentType": "image/jpeg"
+                        }
+                    }
+                }
+        ]
+    }
+}
